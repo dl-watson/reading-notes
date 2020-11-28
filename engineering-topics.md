@@ -16,3 +16,27 @@ I resent the individualist narrative that engineers should feel bad for choices 
 But sure, if it strokes your ego, judge your peers for their spaghetti code and snuggle up to your managers instead. 
 
 To be clear, I also do have a lot of care for clean code, and I think this chapter makes some compelling arguments about how much time and effort it takes to be able to develop this sense. It involves a lot of understanding, a lot of experience, and a lot of practice, and I have a lot of respect for that. 
+
+*Red, Green, Refactor* 
+
+> Red — think about what you want to develop
+
+> Green — think about how to make your tests pass
+
+> Refactor — think about how to improve your existing implementation
+
+This article outlined the general philosophy behind test-driven development, and outlined a three-step process for writing and improving tests. 
+
+I found the quoted text describing each step (above) to be particularly helpful, and feel that I need to practice approaching my code in a more incremental and thoughtful way, asking more whats and whys. I hope to develop more of an innate sense of these things through practice in methodically planning projects. 
+
+*The Cycles of TDD*
+
+> You must write a failing test before you write any production code.
+
+> You must not write more of a test than is sufficient to fail, or fail to compile.
+
+> You must not write more production code than is sufficient to make the currently failing test pass.
+
+Focusing first on correct behavior, then on correct structure is an excellent way to describe the philosophy behind test-driven development, and this blog has been the most effective resrouce yet for convincing me why it's useful to appproach development in this manner. 
+
+I don't have quite as strong a resonance with the next idea, that programmers make specific cases work by writing code that makes the general case work, but hope to soon develop it. 
